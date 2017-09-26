@@ -50,8 +50,8 @@ public class MainFrame extends JFrame{
                 MainFrame.this.setTitle("(　ﾟ∀ﾟ) ﾉ"+Integer.toString(++cont));
                 t1.start();
 //                lb1.setLocation(ran.nextInt(400),ran.nextInt(400));
-//                btnAdd.setLocation(ran.nextInt(400),ran.nextInt(400));
-//                btnSub.setLocation(ran.nextInt(400),ran.nextInt(400));
+                btnAdd.setLocation(ran.nextInt(400),ran.nextInt(400));
+                btnSub.setLocation(ran.nextInt(400),ran.nextInt(400));
             }
         });
         btnSub.addActionListener(new ActionListener() {
@@ -59,8 +59,8 @@ public class MainFrame extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 MainFrame.this.setTitle("(　ﾟ∀ﾟ) ﾉ"+Integer.toString(--cont));
                 t1.start();
-//                btnAdd.setLocation(ran.nextInt(400),ran.nextInt(400));
-//                btnSub.setLocation(ran.nextInt(400),ran.nextInt(400));
+                btnAdd.setLocation(ran.nextInt(400),ran.nextInt(400));
+                btnSub.setLocation(ran.nextInt(400),ran.nextInt(400));
             }
         });
 
