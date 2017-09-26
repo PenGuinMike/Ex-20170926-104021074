@@ -84,7 +84,11 @@ public class MainFrame extends JFrame{
                     t1.stop();
                     lb1.setText("you lose!!(´･ω･`)");
                 }else if(n>599&&cont >20){
+                    t1.stop();
                     lb1.setText("you Win!!(´･ω･`)");
+                }else if(n>599&&cont <20){
+                    t1.stop();
+                    lb1.setText("you lose!!(´･ω･`)");
                 }
             }
         });
